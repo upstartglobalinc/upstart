@@ -283,9 +283,9 @@ p {
 #preloader {
     overflow: hidden;
     background: #fb397d;
-    background: -webkit-linear-gradient(to right, #ccfa87, #fb397d);
-    background: -webkit-linear-gradient(left, #ccfa87, #fb397d);
-    background: linear-gradient(to right, #ccfa87, #fb397d);
+    background: -webkit-linear-gradient(to right, #ccfa87, #007afb);
+    background: -webkit-linear-gradient(left, #ccfa87, #007afb);
+    background: linear-gradient(to right, #ccfa87, #007afb);
     height: 100%;
     left: 0;
     position: fixed;
@@ -298,7 +298,7 @@ p {
     -webkit-animation: 1500ms linear 0s normal none infinite running selene-preloader;
     animation: 1500ms linear 0s normal none infinite running selene-preloader;
     background: transparent none repeat scroll 0 0;
-    border-color: #dddddd #dddddd #fb397d;
+    border-color: #dddddd #dddddd #007afb;
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
