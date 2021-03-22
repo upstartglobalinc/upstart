@@ -581,7 +581,7 @@ p {
 }
 
 .app-download-btn a {
-    border: 2px solid #f67f60;
+    border: 2px solid #007afb;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -599,11 +599,11 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #f67f60;
+    background-color: #007afb;
 }
 
 .app-download-btn a i {
-    color: #f67f60;
+    color: #007afb;
     font-size: 24px;
     margin-right: 15px;
     -webkit-transition-duration: 500ms;
@@ -615,7 +615,7 @@ p {
     line-height: 1;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    color: #f67f60;
+    color: #007afb;
 }
 
 .app-download-btn a p span {
@@ -681,7 +681,6 @@ p {
 }
 
 .app-single-slide {
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.15);
     margin: 45px 20px 65px;
 }
 
@@ -699,7 +698,6 @@ p {
 }
 
 .about-apps-slider .center .app-single-slide:after {
-    background-image: url(img/core-img/slide-device.png);
     content: '';
     top: -45px;
     left: -50px;
@@ -720,7 +718,6 @@ p {
 .about-apps-slider .owl-dot {
     width: 10px;
     height: 10px;
-    background-color: #5a3e81;
     display: inline-block;
     margin: 0 5px;
     border-radius: 50%;
